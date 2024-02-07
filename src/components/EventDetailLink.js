@@ -1,10 +1,9 @@
 import eventDetailData from "../eventDetailData.js";
-import "../css/EventDetailLink.css";
 import DetailLink from "./DetailLink.js";
 
 function EventDetailLink() {
   return (
-    <div className="eventDetailBtn-wrap">
+    <div className="detailBtn-wrap">
       {
         eventDetailData.map((item, idx) => {
           return (

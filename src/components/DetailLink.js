@@ -1,13 +1,14 @@
+import "../css/detailLink.css";
 function DetailLink(props) {
   return (
-    <div className="eventDetailBtn">
-      <div className="eventDetailImg">
+    <div className="detailBtn">
+      <div className="detailImg">
         <picture>
           <source srcSet={process.env.PUBLIC_URL + props.item.src} type={`image/${props.item.type}`}></source>
           <img src={props.detailData.src}></img>
         </picture>
       </div>
-      <span className="eventDetailText">
+      <span className="detailText">
         {props.item.content}
       </span>
     </div>

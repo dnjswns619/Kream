@@ -3,6 +3,7 @@ import Header from './components/Header.js';
 import SwiperSlider from './components/SwiperSlider.js';
 import EventDetailLink from './components/EventDetailLink.js';
 import JustDropped from './components/JustDropped.js';
+import TopBrandLink from './components/TopBrand.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SwiperSlider></SwiperSlider>
       <EventDetailLink></EventDetailLink>
       <JustDropped></JustDropped>
+      <TopBrandLink></TopBrandLink>
     </div>
   );
 }
