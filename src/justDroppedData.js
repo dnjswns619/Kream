@@ -19,7 +19,7 @@ const justDroppedData= [
     saleType: "즉시 구매가",
     src: "/images/justDropped/img1.png",
     imgType: "png",
-    bookmarkState: true
+    bookmarkState: false
   },
   {
     id: 2,
