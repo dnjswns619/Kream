@@ -6,6 +6,7 @@ import JustDropped from './components/JustDropped.js';
 import TopBrandLink from './components/TopBrand.js';
 import EventBanner from './components/EventBanner.js';
 import eventBannerData from './eventBannerData.js';
+import MostPopular from './components/MostPopular.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <TopBrandLink></TopBrandLink>
 
       <EventBanner item={eventBannerData[0]}></EventBanner>
+      <MostPopular></MostPopular>
     </div>
   );
 }

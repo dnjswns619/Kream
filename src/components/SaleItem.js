@@ -1,6 +1,9 @@
 import { useState } from "react";
 
 function SaleItem(props) {
+  if(props.item.saleCount >= 10000) {
+    
+  }
   return (
     <div className="item-wrap">
       <div className="item-img">
@@ -12,7 +15,8 @@ function SaleItem(props) {
         
         <span className="saleCount">
             {
-              props.item.saleCount !== 0 ? `거래 ${props.item.saleCount}` : null
+              props.item.saleCount === 0 ? null :
+              props.item.saleCount >= 1000 ? `거래 ${props.item.saleCount}` : null
             }
           </span>
       </div>
@@ -21,7 +25,11 @@ function SaleItem(props) {
         <p className="name">{props.item.name}</p>
         <div className="price-wrap">
           <span className="price">{props.item.price}원</span>
-          <span className="saleType">{props.item.saleType}</span>
+          <span className="saleType">
+            {
+              props.item.saleType ? "즉시 구매가" : "구매가"
+            }
+          </span>
         </div>
       </div>
     </div>
