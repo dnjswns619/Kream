@@ -1,7 +1,8 @@
 import './App.css';
-import Header from './pages/Header.js';
+import Header from './components/Header.js';
 import SwiperSlider from './components/SwiperSlider.js';
 import EventDetailLink from './components/EventDetailLink.js';
+import JustDropped from './components/JustDropped.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <SwiperSlider></SwiperSlider>
       <EventDetailLink></EventDetailLink>
+      <JustDropped></JustDropped>
     </div>
   );
 }
