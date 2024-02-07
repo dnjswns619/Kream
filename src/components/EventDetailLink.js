@@ -1,23 +1,14 @@
 import eventDetailData from "../eventDetailData.js";
 import "../css/EventDetailLink.css";
+import DetailLink from "./DetailLink.js";
 
 function EventDetailLink() {
   return (
     <div className="eventDetailBtn-wrap">
       {
-        eventDetailData.map((obj) => {
+        eventDetailData.map((item, idx) => {
           return (
-            <div className="eventDetailBtn">
-              <div className="eventDetailImg">
-                <picture>
-                  <source srcSet={process.env.PUBLIC_URL + obj.src} type={`image/${obj.type}`}></source>
-                  <img src={eventDetailData.src}></img>
-                </picture>
-              </div>
-              <span className="eventDetailText">
-                {obj.content}
-              </span>
-            </div>
+            <DetailLink item={item} detailData={eventDetailData} key={idx}></DetailLink>
           )
         })
       }
