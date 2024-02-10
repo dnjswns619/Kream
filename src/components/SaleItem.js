@@ -6,7 +6,7 @@ function SaleItem(props) {
   }
   return (
     <div className="item-wrap">
-      <div className="item-img">
+      <div className={`item-img ${props.item.brand}`}>
         <picture>
           <source srcSet={process.env.PUBLIC_URL + props.item.src} type={`image/${props.item.imgType}`}></source>
           <img src={props.item.src}></img>
@@ -16,7 +16,9 @@ function SaleItem(props) {
         <span className="saleCount">
             {
               props.item.saleCount === 0 ? null :
-              props.item.saleCount >= 1000 ? `거래 ${props.item.saleCount}` : null
+              props.item.saleCount >= 10000 ? `거래 ${(props.item.saleCount / 10000)}만` :
+              props.item.saleCount >= 1000 ? `거래 ${props.item.saleCount.toLocaleString()}` :
+              props.item.saleCount < 1000 ? `거래 ${props.item.saleCount}` : null
             }
           </span>
       </div>

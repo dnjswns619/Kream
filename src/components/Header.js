@@ -16,7 +16,7 @@ function Header() {
       </div>
       <div className="header_main">
         <h1 onClick={() => { navigation("/") }} className="logo">
-          <i className="logo_text">Kream</i>
+          <i className="logo_text">KREAM</i>
         </h1>
         <nav className="GNB_wrap">
           <ul>

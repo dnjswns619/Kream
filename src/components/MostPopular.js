@@ -1,6 +1,7 @@
 import { useState } from "react";
 import mostPopularData from "../mostPopularData.js";
 import SaleItem from "./SaleItem.js";
+import "../css/MostPopular.css"
 
 function MostPopular() {
   let [getJustDroppedItem, setJustDroppedItem] = useState(5);
@@ -22,6 +23,7 @@ function MostPopular() {
       <div className="content-item">
         {
           showDroppedItemCount.map((item, idx) => {
+            console.log(item.brand);
             return <SaleItem item={item} key={idx}></SaleItem>
           })
         }
