@@ -23,7 +23,6 @@ function MostPopular() {
       <div className="content-item">
         {
           showDroppedItemCount.map((item, idx) => {
-            console.log(item.brand);
             return <SaleItem item={item} key={idx}></SaleItem>
           })
         }
