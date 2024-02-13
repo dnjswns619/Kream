@@ -1,16 +1,14 @@
-import React, { useRef, useState } from 'react';
-import coordinationData from '../coordinationData.js';
+import React from 'react';
 import "../css/UserSlide.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 
 // import required modules
-import { FreeMode, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 
 function UserSlide({data}) {
   return (
@@ -18,14 +16,12 @@ function UserSlide({data}) {
       <Swiper
         slidesPerView={6}
         spaceBetween={5}
-        freeMode={true}
         navigation={true}
-        modules={[FreeMode, Navigation]}
+        modules={[Navigation]}
         className="mySwiper userSlide"
       >
         {
           data.map(item => {
-            console.log(item)
             return (
               <SwiperSlide>
                 <picture>
@@ -44,6 +40,7 @@ function UserSlide({data}) {
                     }
                   </picture>
                 </div>
+                <span className='userId'>@{item.userId}</span>
               </SwiperSlide>
             )
           })
