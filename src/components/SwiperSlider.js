@@ -36,7 +36,7 @@ function SwiperSlider() {
         loop={true} 
         navigation={true} 
         modules={[Autoplay, Pagination, Navigation]} 
-        className={`mySwiper ${activeSlideColor ? "white" : "black"}`}
+        className={`mySwiper ${activeSlideColor ? "white" : "black"} bannerSlider`}
         onSlideChange={(slide) => {
           setCurrentSlide(slide.realIndex);
         }}

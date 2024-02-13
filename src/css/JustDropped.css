@@ -11,6 +11,9 @@
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.title-wrap h2 {
+  margin: 0;
+}
 .subTitle {
   color: rgba(34,34,34,.5);
 }
