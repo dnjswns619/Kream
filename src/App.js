@@ -13,6 +13,7 @@ import NewIn from './components/NewIn.js';
 import WeeklyPick from './components/WeeklyPick.js';
 import HoneyScoopHouse from './components/HoneyScoopHouse.js';
 import NorthFace from './components/NorthFace.js';
+import NylonBags from './components/NylonBags.js';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <NorthFace></NorthFace>
 
             <EventBanner item={eventBannerData[5]}></EventBanner>
+            <NylonBags></NylonBags>
 
             <EventBanner item={eventBannerData[6]}></EventBanner>
 
