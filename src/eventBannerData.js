@@ -17,7 +17,7 @@ const eventBannerData = [
   {
     id: 3,
     src: "/images/eventBanner/banner_3.webp",
-    bgColor: "#CEC6B3"
+    bgColor: "#F9E95F"
   },
   {
     id: 4,
