@@ -11,6 +11,7 @@ import Coordination from './components/Coordination.js';
 import { Route, Routes } from 'react-router-dom';
 import NewIn from './components/NewIn.js';
 import WeeklyPick from './components/WeeklyPick.js';
+import HoneyScoopHouse from './components/HoneyScoopHouse.js';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <WeeklyPick></WeeklyPick>
 
             <EventBanner item={eventBannerData[3]}></EventBanner>
+            <HoneyScoopHouse></HoneyScoopHouse>
 
             <EventBanner item={eventBannerData[4]}></EventBanner>
 
