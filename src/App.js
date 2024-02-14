@@ -16,6 +16,8 @@ import NorthFace from './components/NorthFace.js';
 import NylonBags from './components/NylonBags.js';
 import OY from './components/OY.js';
 import HotTrands from './components/HotTrands.js';
+import NewLowestAsks from './components/NewLowestAsks.js';
+import NewHighestBids from './components/NewHighestBids.js';
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
             <HotTrands></HotTrands>
 
             <EventBanner item={eventBannerData[7]}></EventBanner>
+            <NewLowestAsks></NewLowestAsks>
+            <NewHighestBids></NewHighestBids>
 
             <EventBanner item={eventBannerData[8]}></EventBanner>
           </>
