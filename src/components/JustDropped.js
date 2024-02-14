@@ -2,16 +2,12 @@ import { useState } from "react";
 import "../css/JustDropped.css"
 import justDroppedData from "../justDroppedData.js"
 import SaleItem from "./SaleItem.js";
+import ShowMoreBtn from "./ShowMoreBtn.js";
 
 
 function JustDropped() {
-  let [getJustDroppedItem, setJustDroppedItem] = useState(5);
-  let [getShowMorePushCount, setShowMorePushCount] = useState(0)
-  let showDroppedItemCount = [];
-
-  for(let i = 0; i < getJustDroppedItem; i++) {
-    showDroppedItemCount.push(justDroppedData[i]);
-  }
+  const [showItem, setShowItem] = useState(5);
+  let showDroppedItemCount = justDroppedData.slice(0, showItem)
   return (
     <div className="container">
       <div className="content-title">
@@ -28,17 +24,7 @@ function JustDropped() {
           })
         }
       </div>
-      <button onClick={(e) => {
-        getShowMorePushCount !== 1 ? setShowMorePushCount(getShowMorePushCount + 1) : e.target.remove();
-        switch (getShowMorePushCount) {
-          case 0:
-            setJustDroppedItem(10);
-            break;
-          case 1: 
-            setJustDroppedItem(15);
-            break;
-        }
-      }} className="showMore-btn">더보기</button>
+      <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={justDroppedData}></ShowMoreBtn>
     </div>
   )
 }

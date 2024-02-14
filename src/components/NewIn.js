@@ -1,13 +1,4 @@
-import { useState } from "react";
-import mostPopularData from "../mostPopularData.js";
-import SaleItem from "./SaleItem.js";
-import "../css/MostPopular.css"
-import ShowMoreBtn from "./ShowMoreBtn.js";
-
-function MostPopular() {
-  const [showItem, setShowItem] = useState(5);
-  let showDroppedItemCount = mostPopularData.slice(0, showItem)
-
+function NewIn() {
   return (
     <div className="container">
       <div className="content-title">
@@ -24,9 +15,22 @@ function MostPopular() {
           })
         }
       </div>
-      <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={mostPopularData}></ShowMoreBtn>
+      <button onClick={(e) => {
+        getShowMorePushCount !== 2 ? setShowMorePushCount(getShowMorePushCount + 1) : e.target.remove();
+        switch (getShowMorePushCount) {
+          case 0:
+            setJustDroppedItem(10);
+            break;
+          case 1: 
+            setJustDroppedItem(15);
+            break;
+          case 2: 
+            setJustDroppedItem(20);
+            break;
+        }
+      }} className="showMore-btn">더보기</button>
     </div>
   )
 }
 
-export default MostPopular;
+export default NewIn;
