@@ -30,14 +30,8 @@ function UserSlide({data}) {
                 </picture>
                 <div className='thumbnail'>
                   <picture>
-                    {
-                      !item.thumbnail ? <source srcSet={`${process.env.PUBLIC_URL}/images/coordiImg/user.jpeg`} type='image/jpeg'></source> :
-                      <source srcSet={`${process.env.PUBLIC_URL}/images/coordiImg/user${item.id}.${item.thumbnailType}`} type={`image/${item.thumbnailType}`}></source>
-                    }
-                    {
-                      !item.thumbnail ? <img src={`${process.env.PUBLIC_URL}/images/coordiImg/user.jpeg`}></img> :
-                      <img src={`${process.env.PUBLIC_URL}/images/coordiImg/user${item.id}.${item.thumbnailType}`}></img>
-                    }
+                      <source srcSet={process.env.PUBLIC_URL + item.thumbnailSrc} type={`image/${item.thumbnailType}`}></source>
+                      <img src={process.env.PUBLIC_URL + item.thumbnailSrc}></img>
                   </picture>
                 </div>
                 <span className='userId'>@{item.userId}</span>

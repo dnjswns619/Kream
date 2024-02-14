@@ -15,6 +15,7 @@ import HoneyScoopHouse from './components/HoneyScoopHouse.js';
 import NorthFace from './components/NorthFace.js';
 import NylonBags from './components/NylonBags.js';
 import OY from './components/OY.js';
+import HotTrands from './components/HotTrands.js';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
 
             <EventBanner item={eventBannerData[6]}></EventBanner>
             <OY></OY>
+            <HotTrands></HotTrands>
 
             <EventBanner item={eventBannerData[7]}></EventBanner>
 
