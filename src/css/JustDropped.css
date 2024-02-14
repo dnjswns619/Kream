@@ -39,6 +39,9 @@
   row-gap: 30px;
   margin-bottom: 20px;
 }
+.content-item.showItem-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
 .item-img {
   overflow: hidden;
   display: flex;
