@@ -12,6 +12,7 @@ import { Route, Routes } from 'react-router-dom';
 import NewIn from './components/NewIn.js';
 import WeeklyPick from './components/WeeklyPick.js';
 import HoneyScoopHouse from './components/HoneyScoopHouse.js';
+import NorthFace from './components/NorthFace.js';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <HoneyScoopHouse></HoneyScoopHouse>
 
             <EventBanner item={eventBannerData[4]}></EventBanner>
+            <NorthFace></NorthFace>
 
             <EventBanner item={eventBannerData[5]}></EventBanner>
 
