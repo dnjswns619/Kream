@@ -22,17 +22,17 @@ const eventBannerData = [
   {
     id: 4,
     src: "/images/eventBanner/banner_4.webp",
-    bgColor: "#C3BAAD"
+    bgColor: "rgb(158, 163, 149)"
   },
   {
     id: 5,
     src: "/images/eventBanner/banner_5.webp",
-    bgColor: "#9D9DC7"
+    bgColor: "rgb(110, 127, 119)"
   },
   {
     id: 6,
     src: "/images/eventBanner/banner_6.webp",
-    bgColor: "#50575A"
+    bgColor: "rgb(110, 111, 115)"
   },
   {
     id: 7,
