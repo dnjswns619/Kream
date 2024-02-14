@@ -10,6 +10,7 @@ import MostPopular from './components/MostPopular.js';
 import Coordination from './components/Coordination.js';
 import { Route, Routes } from 'react-router-dom';
 import NewIn from './components/NewIn.js';
+import WeeklyPick from './components/WeeklyPick.js';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <NewIn></NewIn>
 
             <EventBanner item={eventBannerData[2]}></EventBanner>
+            <WeeklyPick></WeeklyPick>
 
             <EventBanner item={eventBannerData[3]}></EventBanner>
 
