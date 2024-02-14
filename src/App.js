@@ -9,6 +9,7 @@ import eventBannerData from './eventBannerData.js';
 import MostPopular from './components/MostPopular.js';
 import Coordination from './components/Coordination.js';
 import { Route, Routes } from 'react-router-dom';
+import NewIn from './components/NewIn.js';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Coordination></Coordination>
 
             <EventBanner item={eventBannerData[1]}></EventBanner>
+            <NewIn></NewIn>
 
             <EventBanner item={eventBannerData[2]}></EventBanner>
 

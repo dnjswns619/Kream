@@ -67,6 +67,12 @@
   right: 10px;
   font-size: 12px;
 }
+.brandWrap {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin: 10px 0 5px;
+}
 .brand,
 .name {
   margin: 0;
@@ -83,7 +89,6 @@
   -webkit-box-orient: vertical
 }
 .brand {
-  margin: 10px 0 5px;
   font-weight: 700;
 }
 .price-wrap {
@@ -92,6 +97,7 @@
   margin-top: 10px;
 }
 .price {
+  margin-bottom: 3px;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
