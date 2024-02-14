@@ -1,5 +1,5 @@
 import "../css/Header.css";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Header() {
   const navigation = useNavigate();
@@ -29,26 +29,14 @@ function Header() {
 
       <div className="header_bottom">
         <nav>
-          <ul className="tabs">
-            <li className="tab active">
-              <a href="#">추천</a>
-            </li>
-            <li className="tab">
-              <a href="#">랭킹</a>
-            </li>
-            <li className="tab">
-              <a href="#">럭셔리</a>
-            </li>
-            <li className="tab">
-              <a href="#">남성</a>
-            </li>
-            <li className="tab">
-              <a href="#">여성</a>
-            </li>
-            <li className="tab">
-              <a href="#">발견</a>
-            </li>
-          </ul>
+          <div className="tabs">
+            <NavLink className={"tab"} to={"/"}>추천</NavLink>
+            <NavLink className={"tab"} to={"/rank"}>랭킹</NavLink>
+            <NavLink className={"tab"} to={"/luxury"}>럭셔리</NavLink>
+            <NavLink className={"tab"} to={"/man"}>남성</NavLink>
+            <NavLink className={"tab"} to={"/woman"}>여성</NavLink>
+            <NavLink className={"tab"} to={"/discovery"}>발견</NavLink>
+          </div>
         </nav>
       </div>
     </div>
