@@ -1,17 +1,17 @@
 import { useState } from "react";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import weeklyPickData from "../weeklyPickData.js";
+import nylonBagsData from "../nylonBagsData.js";
 
-function WeeklyPick() {
+function NylonBags() {
   const [showItem, setShowItem] = useState(5);
-  let showDroppedItemCount = weeklyPickData.slice(0, showItem);
+  let showDroppedItemCount = nylonBagsData.slice(0, showItem);
   return (
     <div className="container">
       <div className="content-title">
         <div className="title-wrap">
-          <h2>All About Details</h2>
-          <span className="subTitle">이번주 MD의 선택</span>
+          <h2>Nylon Best Bags</h2>
+          <span className="subTitle">오래도록 함께할 소재</span>
         </div>
       </div>
       <div className="content-item">
@@ -21,9 +21,9 @@ function WeeklyPick() {
           })
         }
       </div>
-      <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={weeklyPickData}></ShowMoreBtn>
+      <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={nylonBagsData}></ShowMoreBtn>
     </div>
   )
 }
 
-export default WeeklyPick;
+export default NylonBags;
