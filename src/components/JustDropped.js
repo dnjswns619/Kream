@@ -9,23 +9,25 @@ function JustDropped() {
   const [showItem, setShowItem] = useState(5);
   let showDroppedItemCount = justDroppedData.slice(0, showItem)
   return (
-    <div className="container">
-      <div className="content-title">
-        <div className="title-wrap">
-          <h2>Just Dropped</h2>
-          <span className="subTitle">발매 상품</span>
+    <section>
+      <div className="container">
+        <div className="content-title">
+          <div className="title-wrap">
+            <h2>Just Dropped</h2>
+            <span className="subTitle">발매 상품</span>
+          </div>
+          <span className="showMore-text">더보기</span>
         </div>
-        <span className="showMore-text">더보기</span>
+        <div className="content-item">
+          {
+            showDroppedItemCount.map((item, idx) => {
+              return <SaleItem item={item} key={idx}></SaleItem>
+            })
+          }
+        </div>
+        <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={justDroppedData}></ShowMoreBtn>
       </div>
-      <div className="content-item">
-        {
-          showDroppedItemCount.map((item, idx) => {
-            return <SaleItem item={item} key={idx}></SaleItem>
-          })
-        }
-      </div>
-      <ShowMoreBtn showItem={showItem} setShowItem={setShowItem} data={justDroppedData}></ShowMoreBtn>
-    </div>
+    </section>
   )
 }
 export default JustDropped;
