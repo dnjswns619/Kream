@@ -18,6 +18,7 @@ import OY from './components/OY.js';
 import HotTrands from './components/HotTrands.js';
 import NewLowestAsks from './components/NewLowestAsks.js';
 import NewHighestBids from './components/NewHighestBids.js';
+import UpcomingRelease from './components/UpcomingRelease.js';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
             <NewHighestBids></NewHighestBids>
 
             <EventBanner item={eventBannerData[8]}></EventBanner>
+            <UpcomingRelease></UpcomingRelease>
           </>
         }></Route>
       </Routes>
