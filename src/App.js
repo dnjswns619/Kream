@@ -19,6 +19,7 @@ import HotTrands from './components/HotTrands.js';
 import NewLowestAsks from './components/NewLowestAsks.js';
 import NewHighestBids from './components/NewHighestBids.js';
 import UpcomingRelease from './components/UpcomingRelease.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -58,6 +59,8 @@ function App() {
 
             <EventBanner item={eventBannerData[8]}></EventBanner>
             <UpcomingRelease></UpcomingRelease>
+
+            <Footer></Footer>
           </>
         }></Route>
       </Routes>
