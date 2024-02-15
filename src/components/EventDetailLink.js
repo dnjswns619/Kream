@@ -3,15 +3,17 @@ import DetailLink from "./DetailLink.js";
 
 function EventDetailLink() {
   return (
-    <div className="detailBtn-wrap">
-      {
-        eventDetailData.map((item, idx) => {
-          return (
-            <DetailLink item={item} detailData={eventDetailData} key={idx}></DetailLink>
-          )
-        })
-      }
-    </div>
+    <section>
+      <div className="detailBtn-wrap">
+        {
+          eventDetailData.map((item, idx) => {
+            return (
+              <DetailLink item={item} detailData={eventDetailData} key={idx}></DetailLink>
+            )
+          })
+        }
+      </div>
+    </section>
   )
 }
 
