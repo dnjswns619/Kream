@@ -8,7 +8,7 @@ function ShowMoreBtn({showItem, setShowItem, data}) {
     } else {
       setShowItem(showItem + 5);
     }
-    if(showItem + 5 === data.length || showItem + 4 > data.length) {
+    if(showItem + 5 === data.length || showItem + 4 >= data.length) {
       e.target.remove();
     }
   })
