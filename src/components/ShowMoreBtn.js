@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 
 function ShowMoreBtn({showItem, setShowItem, data}) {
   const showMore = useCallback((e) => {
@@ -11,7 +11,7 @@ function ShowMoreBtn({showItem, setShowItem, data}) {
     if(showItem + 5 === data.length || showItem + 4 >= data.length) {
       e.target.remove();
     }
-  })
+  }, [showItem, setShowItem, data])
   return (
     <button onClick={showMore} className="showMore-btn">더보기</button>
   )

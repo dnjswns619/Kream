@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import eventData from '../eventData.js';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,9 +16,9 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 let activeSlideColor = true;
 
 function SwiperSlider() {
-  let [totalEvent, setTotalEvent] = useState(39);
-  let [getCurrentSlide, setCurrentSlide] = useState(0);
-  let eventList = [];
+  const [totalEvent] = useState(39);
+  const [getCurrentSlide, setCurrentSlide] = useState(0);
+  const eventList = [];
   for(let i = 0; i <= totalEvent; i++) {
     eventList.push(i);
   }
