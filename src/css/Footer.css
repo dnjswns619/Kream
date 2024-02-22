@@ -58,10 +58,3 @@ footer {
 strong {
   font-weight: bold;
 }
-
-.footerBottom {
-  max-width: 1280px;
-  width: 100%;
-  border-top: 1px solid #ebebeb;
-  box-sizing: border-box;
-}

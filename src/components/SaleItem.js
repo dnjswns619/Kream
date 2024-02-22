@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Bookmark from "./BookMark.js";
 
 function SaleItem(props) {
