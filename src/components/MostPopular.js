@@ -3,7 +3,6 @@ import EventBanner from './EventBanner.js';
 import eventBannerData from '../eventBannerData.js';
 import mostPopularData from "../mostPopularData.js";
 import SaleItem from "./SaleItem.js";
-import "../css/MostPopular.css"
 import ShowMoreBtn from "./ShowMoreBtn.js";
 
 function MostPopular() {

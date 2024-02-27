@@ -1,4 +1,3 @@
-import "../css/Header.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 function Header() {
