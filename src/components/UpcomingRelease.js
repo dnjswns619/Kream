@@ -1,8 +1,7 @@
 import { useState } from "react";
-import upcomingReleaseData from "../upcomingReleaseData";
+import upcomingReleaseData from "../upcomingReleaseData.js";
 import Bookmark from "./BookMark.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import "../css/upcomingRelease.css"
 function UpcomingRelease() {
   const [showItem, setShowItem] = useState(4);
   let showDroppedItemCount = upcomingReleaseData.slice(0, showItem);

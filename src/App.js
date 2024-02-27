@@ -1,4 +1,5 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import EventBanner from './components/EventBanner.js';
 import eventBannerData from './eventBannerData.js';
 import Header from './components/Header.js';
@@ -8,7 +9,6 @@ import JustDropped from './components/JustDropped.js';
 import TopBrandLink from './components/TopBrand.js';
 import MostPopular from './components/MostPopular.js';
 import Coordination from './components/Coordination.js';
-import { Route, Routes } from 'react-router-dom';
 import NewIn from './components/NewIn.js';
 import WeeklyPick from './components/WeeklyPick.js';
 import HoneyScoopHouse from './components/HoneyScoopHouse.js';
