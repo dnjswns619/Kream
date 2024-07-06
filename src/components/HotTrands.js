@@ -1,4 +1,4 @@
-import hotTrandsData from "../hotTrandsData";
+import { hotTrandsData } from "../constants/data";
 import UserSlide from "./UserSlide";
 
 function HotTrands() {

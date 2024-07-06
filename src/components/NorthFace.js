@@ -1,9 +1,8 @@
 import { useState } from "react";
 import EventBanner from './EventBanner.js';
-import eventBannerData from '../eventBannerData.js';
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import northFaceData from "../northFaceData.js";
+import { eventBannerData, northFaceData } from "../constants/data.js";
 
 function NorthFace() {
   const [showItem, setShowItem] = useState(5);

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import justDroppedData from "../justDroppedData.js"
+import "../css/JustDropped.css";
+import { justDroppedData } from "../constants/data.js";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
 

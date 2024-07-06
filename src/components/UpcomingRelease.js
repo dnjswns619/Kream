@@ -1,5 +1,5 @@
 import { useState } from "react";
-import upcomingReleaseData from "../upcomingReleaseData.js";
+import { upcomingReleaseData } from "../constants/data.js";
 import Bookmark from "./BookMark.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
 function UpcomingRelease() {
@@ -20,7 +20,7 @@ function UpcomingRelease() {
           {
             showDroppedItemCount.map((item) => {
               return (
-                <div className="item-wrap">
+                <div className="item-wrap" key={item.id}>
                   <div className={`item-img ${item.brand}`}>
                     <picture>
                       <source srcSet={process.env.PUBLIC_URL + item.src} type={`image/${item.imgType}`}></source>

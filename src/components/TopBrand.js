@@ -1,4 +1,4 @@
-import topBrandDetailData from "../topBrandData.js";
+import { topBrandDetailData } from "../constants/data.js";
 import DetailLink from "./DetailLink.js";
 
 function TopBrandLink() {
