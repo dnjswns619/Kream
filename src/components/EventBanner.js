@@ -1,4 +1,3 @@
-import "../css/EventBanner.css"
 function EventBanner(props) {
   return (
     <div className="bannerWrap" style={{backgroundColor : props.item.bgColor}}>

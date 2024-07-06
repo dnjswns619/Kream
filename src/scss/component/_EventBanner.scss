@@ -1,0 +1,10 @@
+.bannerWrap {
+  @include flexCenter;
+  width: 100vw;
+  img {
+    display: block;
+    width: auto;
+    max-height: 480px;
+    object-fit: cover;
+  }
+}
