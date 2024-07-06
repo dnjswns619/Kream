@@ -1,4 +1,4 @@
-import eventDetailData from "../eventDetailData.js";
+import { eventDetailData } from "../constants/data.js";
 import DetailLink from "./DetailLink.js";
 
 function EventDetailLink() {

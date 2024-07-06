@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import newInData from "../newInData.js";
+import { newInData } from "../constants/data.js";
 
 function NewIn() {
   const [showItem, setShowItem] = useState(5);

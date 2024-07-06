@@ -1,9 +1,8 @@
 import { useState } from "react";
 import EventBanner from './EventBanner.js';
-import eventBannerData from '../eventBannerData.js';
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import nylonBagsData from "../nylonBagsData.js";
+import { eventBannerData, nylonBagsData } from "../constants/data.js";
 
 function NylonBags() {
   const [showItem, setShowItem] = useState(5);

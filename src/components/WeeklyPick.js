@@ -1,9 +1,8 @@
 import { useState } from "react";
 import EventBanner from './EventBanner.js';
-import eventBannerData from '../eventBannerData.js';
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import weeklyPickData from "../weeklyPickData.js";
+import { eventBannerData, weeklyPickData } from "../constants/data.js";
 
 function WeeklyPick() {
   const [showItem, setShowItem] = useState(5);

@@ -1,4 +1,4 @@
-import coordinationData from "../coordinationData";
+import { coordinationData } from "../constants/data";
 import UserSlide from "./UserSlide";
 
 function Coordination() {

@@ -1,9 +1,8 @@
 import { useState } from "react";
 import EventBanner from './EventBanner.js';
-import eventBannerData from '../eventBannerData.js';
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import honeyScoopHouseData from "../honeyScoopHouseData.js";
+import { eventBannerData, honeyScoopHouseData } from "../constants/data.js";
 
 function HoneyScoopHouse() {
   const [showItem, setShowItem] = useState(5);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import eventData from '../eventData.js';
+import { eventData } from '../constants/data';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import newLowestAsksData from "../newLowestAsksData.js";
+import { newLowestAsksData } from "../constants/data.js";
 
 function NewLowestAsks() {
   const [showItem, setShowItem] = useState(5);

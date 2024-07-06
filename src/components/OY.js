@@ -1,9 +1,8 @@
 import { useState } from "react";
 import EventBanner from './EventBanner.js';
-import eventBannerData from '../eventBannerData.js';
+import { eventBannerData, oyData } from "../constants/data.js";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import oyData from "../oyData.js";
 
 function OY() {
   const [showItem, setShowItem] = useState(4);

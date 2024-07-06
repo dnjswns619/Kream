@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
-import newHighestBidsData from "../newHighestBidsData.js";
+import { newHighestBidsData } from "../constants/data.js";
 
 function NewHighestBids() {
   const [showItem, setShowItem] = useState(5);
