@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// setting
+@import "./setting/common";
+@import "./setting/mixin";
+
+// component
+@import "./component/Header";
+@import "./component/SwiperSlide";
+@import "./component/detailLink";
+@import "./component/saleItem";
+@import "./component/EventBanner";
+@import "./component/Cordination";
+@import "./component/UserSlide";
+@import "./component/UpcomingRelease";
+@import "./component/Footer";
+@import "./component/brandBackground";
