@@ -24,7 +24,7 @@ function UpcomingRelease() {
                   <div className={`saleItem__img ${item.brand}`}>
                     <picture>
                       <source srcSet={process.env.PUBLIC_URL + item.src} type={`image/${item.imgType}`}></source>
-                      <img src={item.src}></img>
+                      <img src={item.src} alt=""></img>
                     </picture>
                     <Bookmark item={item}></Bookmark>
 
