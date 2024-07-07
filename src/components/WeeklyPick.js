@@ -10,14 +10,14 @@ function WeeklyPick() {
   return (
     <section>
       <EventBanner item={eventBannerData[2]}></EventBanner>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>All About Details</h2>
             <span className="subTitle">이번주 MD의 선택</span>
           </div>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item) => {
               return <SaleItem item={item} key={item.id}></SaleItem>

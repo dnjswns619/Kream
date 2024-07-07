@@ -4,7 +4,7 @@ import DetailLink from "./DetailLink.js";
 function EventDetailLink() {
   return (
     <section>
-      <div className="detailBtn-wrap">
+      <div className="detailBtn">
         {
           eventDetailData.map((item, idx) => {
             return (

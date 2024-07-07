@@ -8,14 +8,14 @@ function NewIn() {
   let showDroppedItemCount = newInData.slice(0, showItem);
   return (
     <section>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>New In</h2>
             <span className="subTitle">신규 등록 상품</span>
           </div>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item, idx) => {
               return <SaleItem item={item} key={idx}></SaleItem>

@@ -2,15 +2,15 @@ import Bookmark from "./BookMark.js";
 
 function SaleItem(props) {
   return (
-    <div className="item-wrap">
-      <div className={`item-img ${props.item.brand}`}>
+    <div className="saleItem__wrap">
+      <div className={`saleItem__img ${props.item.brand}`}>
         <picture>
           <source srcSet={process.env.PUBLIC_URL + props.item.src} type={`image/${props.item.imgType}`}></source>
           <img src={props.item.src}></img>
         </picture>
         <Bookmark item={props.item}></Bookmark>
         
-        <span className="saleCount">
+        <span className="saleItem__saleCount">
             {
               props.item.saleCount === 0 ? null :
               props.item.saleCount >= 10000 ? `거래 ${(props.item.saleCount / 10000)}만` :
@@ -19,9 +19,9 @@ function SaleItem(props) {
             }
           </span>
       </div>
-      <div className="item-desc">
-        <div className="brandWrap">
-          <p className="brand">{props.item.brand}</p>
+      <div className="saleItem__desc">
+        <div className="brand">
+          <p className="brand__text">{props.item.brand}</p>
           {
             props.item.brandOfficial ? 
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#7c72ee" className="bi bi-check-circle-fill" viewBox="0 0 16 16">
@@ -30,9 +30,9 @@ function SaleItem(props) {
           }
         </div>
         <p className="name">{props.item.name}</p>
-        <div className="price-wrap">
-          <span className="price">{props.item.price}원</span>
-          <span className="saleType">
+        <div className="price">
+          <span className="price__text">{props.item.price}원</span>
+          <span className="price__saleType">
             {
               props.item.saleType ? "즉시 구매가" : "구매가"
             }

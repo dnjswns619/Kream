@@ -8,14 +8,14 @@ function NewHighestBids() {
   let showDroppedItemCount = newHighestBidsData.slice(0, showItem);
   return (
     <section>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>New Lowest Asks</h2>
             <span className="subTitle">새로운 즉시 판매가</span>
           </div>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item) => {
               return <SaleItem item={item} key={item.id}></SaleItem>

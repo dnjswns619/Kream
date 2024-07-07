@@ -26,7 +26,7 @@ function SwiperSlider() {
   activeSlideColor = currentSlide.activeColor;
   return (
     <section>
-      <div className='sliderWrap'>
+      <div className='slider'>
         <Swiper autoplay={{
             delay: 3500,
             disableOnInteraction: false,

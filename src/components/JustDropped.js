@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../css/JustDropped.css";
 import { justDroppedData } from "../constants/data.js";
 import SaleItem from "./SaleItem.js";
 import ShowMoreBtn from "./ShowMoreBtn.js";
@@ -10,15 +9,15 @@ function JustDropped() {
   let showDroppedItemCount = justDroppedData.slice(0, showItem)
   return (
     <section>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>Just Dropped</h2>
             <span className="subTitle">발매 상품</span>
           </div>
-          <span className="showMore-text">더보기</span>
+          <span className="showMoreText">더보기</span>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item, idx) => {
               return <SaleItem item={item} key={idx}></SaleItem>
