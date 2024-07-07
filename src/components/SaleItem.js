@@ -6,7 +6,7 @@ function SaleItem(props) {
       <div className={`saleItem__img ${props.item.brand}`}>
         <picture>
           <source srcSet={process.env.PUBLIC_URL + props.item.src} type={`image/${props.item.imgType}`}></source>
-          <img src={props.item.src}></img>
+          <img src={props.item.src} alt=""></img>
         </picture>
         <Bookmark item={props.item}></Bookmark>
         

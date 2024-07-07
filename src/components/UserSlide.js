@@ -24,12 +24,12 @@ function UserSlide({data}) {
             <SwiperSlide key={item.id}>
               <picture>
                 <source srcSet={process.env.PUBLIC_URL + item.coordiImgSrc} type={`image/${item.coordiImgType}`}></source>
-                <img src={process.env.PUBLIC_URL + item.coordiImgSrc}></img>
+                <img src={process.env.PUBLIC_URL + item.coordiImgSrc} alt={item.userId + "의 코디"}></img>
               </picture>
               <div className='thumbnail'>
                 <picture>
                     <source srcSet={process.env.PUBLIC_URL + item.thumbnailSrc} type={`image/${item.thumbnailType}`}></source>
-                    <img src={process.env.PUBLIC_URL + item.thumbnailSrc}></img>
+                    <img src={process.env.PUBLIC_URL + item.thumbnailSrc} alt={item.userId}></img>
                 </picture>
               </div>
               <span className='userId'>@{item.userId}</span>

@@ -47,7 +47,7 @@ function SwiperSlider() {
                   <picture>
                     <source srcSet={process.env.PUBLIC_URL + item.src} type='image/webp'>
                     </source>
-                    <img src={process.env.PUBLIC_URL + item.src}></img>
+                    <img src={process.env.PUBLIC_URL + item.src} alt={item.imgAlt}></img>
                   </picture>
                 </SwiperSlide>
               )

@@ -3,253 +3,295 @@ export const eventData = [
     id: 0,
     src: "/images/eventBanner/bg_0.webp",
     bgColor: "#A9A099",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "포인트 컬러 인기 상의 화사하고 따듯하게! 지금 거래하기"
   },
   {
     id: 1,
     src: "/images/eventBanner/bg_1.webp",
     bgColor: "#9A9196",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "HAI & REQINS 베스트 슈즈 & 실크백 컬렉션 최대 30% 할인"
   },
   {
     id: 2,
     src: "/images/eventBanner/bg_2.webp",
     bgColor: "#868686",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "BLR 베스트 셀러 재입고 데님의 본질 재정의"
   },
   {
     id: 3,
     src: "/images/eventBanner/bg_3.webp",
     bgColor: "#9796CE",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "젤리처럼 새콤달콤한 매력 Gentle Jelly 지금 거래하기"
   }
   ,{
     id: 4,
     src: "/images/eventBanner/bg_4.webp",
     bgColor: "#828177",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "KENZO 협업 컬렉션 발매 ASICS | VERDY 3% 적립"
   },
   {
     id: 5,
     src: "/images/eventBanner/bg_5.webp",
     bgColor: "#BABABA",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "OTTOLINGER 24SS 프리 시즌 10% 쿠폰 그리고 푸마 콜라보 드랍"
   },
   {
     id: 6,
     src: "/images/eventBanner/bg_6.webp",
     bgColor: "#E5E5E5",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "지금 판매하기 좋은 아이템 검색창에 '구해요' 입력하고 쉽게 찾아보세요."
   },
   {
     id: 7,
     src: "/images/eventBanner/bg_7.webp",
     bgColor: "#7B7678",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "스투시 신상 발매 Stussy New Drop"
   },
   {
     id: 8,
     src: "/images/eventBanner/bg_8.webp",
     bgColor: "#E0FA9D",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "FEB2, FEB 11 럭키백 챌린지 노스페이스 눕시 블랙 & 아식스 젤 1130 & 9천 포인트"
   }
   ,{
     id: 9,
     src: "/images/eventBanner/bg_9.webp",
     bgColor: "#e5e5e5",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "두 손을 가볍게, 미니 백팩 Mini Backpacks 지금 거래하기"
   },
   {
     id: 10,
     src: "/images/eventBanner/bg_10.webp",
     bgColor: "#D5DEED",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "신상 스니커즈 모아보기 새해엔 새 신발! 지금 거래하기"
   },
   {
     id: 11,
     src: "/images/eventBanner/bg_11.webp",
     bgColor: "#86807E",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "SAENGINSTUDIOS 단독 시즌 오프 최대 56% 할인"
   },
   {
     id: 12,
     src: "/images/eventBanner/bg_12.webp",
     bgColor: "#025396",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "POLO RALPH LAUREN 5,000원 지원 받고 빠르게 배송 받을 기회! 폴로 랄프 로렌 빠른배송 쿠폰 지금 거래하기"
   },
   {
     id: 13,
     src: "/images/eventBanner/bg_13.webp",
     bgColor: "#EFEFEF",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "유니폼부터 축구선수들의 사복템까지 축구 덕후를 위한 아이템 모음 지금 거래하기"
   }
   ,{
     id: 14,
     src: "/images/eventBanner/bg_14.webp",
     bgColor: "#030802",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "BONNAE 단독 시즌 오프 시작 최대 50% 할인"
   },
   {
     id: 15,
     src: "/images/eventBanner/bg_15.webp",
     bgColor: "#BFAD6E",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "푸마 스피드캣 국내 출시! Forever Speedcat 지금 거래하기"
   },
   {
     id: 16,
     src: "/images/eventBanner/bg_16.webp",
     bgColor: "#DDDBC8",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "인기 있는 하이엔드 High-End Luxury 지금 거래하기"
   },
   {
     id: 17,
     src: "/images/eventBanner/bg_17.webp",
     bgColor: "#251313",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "MARTINE ROSE 24SS 컬렉션 신규 발매 전 상품 10% 할인"
   },
   {
     id: 18,
     src: "/images/eventBanner/bg_18.webp",
     bgColor: "#0A0A07",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "HOKA 고프코어 최적화 슈즈 신규 발매"
   }
   ,{
     id: 19,
     src: "/images/eventBanner/bg_19.webp",
     bgColor: "#0D0D0E",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "윈터 시즌 오프 ~70% 최대 20만 원 쿠폰팩 1월30일(화요일) 오전 11시부터 2월 5일(월요일) 오전 11시 까지"
   },
   {
     id: 20,
     src: "/images/eventBanner/bg_20.webp",
     bgColor: "#ACA79C",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "9th KREAM 스타일컬렉터 모집 활동비 60만P & BEST 5 한정판 스니커즈"
   },
   {
     id: 21,
     src: "/images/eventBanner/bg_21.webp",
     bgColor: "#198dfa",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "2월 수수료 최대 50% 할인 혜택 2월 1일(목요일) 00시00분00초 부터 예산 소진 시까지"
   },
   {
     id: 22,
     src: "/images/eventBanner/bg_22.webp",
     bgColor: "#252829",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "RAWROW 신규 드랍 & 베트스 재입고 최대 31% 할인"
   },
   {
     id: 23,
     src: "/images/eventBanner/bg_23.webp",
     bgColor: "#777E82",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "GARMENTS FAB 단독 예약 배송 선 발매 최대 20% 할인"
   }
   ,{
     id: 24,
     src: "/images/eventBanner/bg_24.webp",
     bgColor: "#F9E5EE",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "컬러별로 알아보는 봄 맞이 데일리백 MUST-HAVE BAGS 지금 거래하기"
   },
   {
     id: 25,
     src: "/images/eventBanner/bg_25.webp",
     bgColor: "#50575A",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "HDEX 뛰어난 퍼포먼스를 위한 짐 웨어 최대 50% 할인 그리고 10% 쿠폰"
   },
   {
     id: 26,
     src: "/images/eventBanner/bg_26.webp",
     bgColor: "#C7AE9B",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "오늘 추웠다면 내일은 따듯하게! UGG 부츠 빠른배송 지금 거래하기"
   },
   {
     id: 27,
     src: "/images/eventBanner/bg_27.webp",
     bgColor: "#f5f5f5",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "ONLY KREAM MEMBERS KREAM DRAW 스타벅스 & 슈프림 2월 1일(목) 낮 12시 부터 2월 5일 (월) 낮 12시까지"
   },
   {
     id: 28,
     src: "/images/eventBanner/bg_28.webp",
     bgColor: "#E0E0E0",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "ODOR KREAM 단독 에디션 선착순 드랍 오도어 페인팅 로고 데님"
   }
   ,{
     id: 29,
     src: "/images/eventBanner/bg_29.webp",
     bgColor: "#C8CDC8",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "DESSERT gift set 더 현대 서울 한정판 선물 세트 예약하고 웨이팅 없이 픽업 24.02.01 ~ 02.03 RESERVATION 24.02.05 ~ 02.07 PICK UP"
   },
   {
     id: 30,
     src: "/images/eventBanner/bg_30.webp",
     bgColor: "#D4E9FA",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "오픈 전 팔라스 복습하기 Palace 서울 상륙"
   },
   {
     id: 31,
     src: "/images/eventBanner/bg_31.webp",
     bgColor: "#57251A",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "아우터 & 니트 지금, 모두의 위시리스트"
   },
   {
     id: 32,
     src: "/images/eventBanner/bg_32.webp",
     bgColor: "#2BB165",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "WELCOME COUPON Welcome to KREAM 가입하고 가뿐하게 FLEX 2월 신규회원 한정"
   },
   {
     id: 33,
     src: "/images/eventBanner/bg_33.webp",
     bgColor: "#000000",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "PUNCH DRUNK PARTIES 파이널 시즌 오프 최대 30% 할인"
   }
   ,{
     id: 34,
     src: "/images/eventBanner/bg_34.webp",
     bgColor: "#AA9A7C",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "Carhartt WIP 워크웨어의 근본 지금 거래하기"
   },
   {
     id: 35,
     src: "/images/eventBanner/bg_35.webp",
     bgColor: "#F5F6F3",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "Smart School Lift 최대 19만원 쿠폰팩으로 누리는 테크템 스마트한 새 학기 라이프의 시작"
   },
   {
     id: 36,
     src: "/images/eventBanner/bg_36.webp",
     bgColor: "#C387AF",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "굿즈는 KREAM에서 품절대란 굿즈 지금 거래하기"
   },
   {
     id: 37,
     src: "/images/eventBanner/bg_37.webp",
     bgColor: "#020202",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "2월 혜택 모음 헤매지말고 한 번에 모아보세요"
   },
   {
     id: 38,
     src: "/images/eventBanner/bg_38.webp",
     bgColor: "#A9A69D",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "FULL OF SSUM 기다리던 시즌 오프 ~20% 할인 그리고 ~10% 쿠폰"
   },
   {
     id: 39,
     src: "/images/eventBanner/bg_39.webp",
     bgColor: "#d8dee2",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "페이코 결제 시 즉시할인 2% 2월 1일 (목)부터 15만원 이상 결제 시"
   },
   {
     id: 40,
     src: "/images/eventBanner/bg_40.webp",
     bgColor: "#222222",
-    activeColor: true
+    activeColor: true,
+    imgAlt: "농협카드 결제 시 즉시 할인 2만원 2월 1일 (목) 오전 9시부터 40만원 이상 결제 시 누구나!"
   },
   {
     id: 41,
     src: "/images/eventBanner/bg_41.webp",
     bgColor: "#d8dee2",
-    activeColor: false
+    activeColor: false,
+    imgAlt: "카카오페이 결제 시 최대 4만원 즉시할인 2월 1일 (목)부터 머니/KB국민카드 결제 시"
   },
 ]
 
@@ -581,47 +623,56 @@ export const eventBannerData = [
   {
     id: 0,
     src: "/images/eventBanner/banner_0.webp",
-    bgColor: "#6934FF"
+    bgColor: "#6934FF",
+    imgAlt: "최대 -55% 마지막 시즌 오프 기획전 상품 10% 추가 할인까지"
   },
   {
     id: 1,
     src: "/images/eventBanner/banner_1.webp",
-    bgColor: "#6B87A7"
+    bgColor: "#6B87A7",
+    imgAlt: "삼바 vs 가젤 vs 스페지알 지금 거래하기"
   },
   {
     id: 2,
     src: "/images/eventBanner/banner_2.webp",
-    bgColor: "#4567E3"
+    bgColor: "#4567E3",
+    imgAlt: "Weekly MD Pick! 데테일이 빛나는 아이템 지금 거래하기"
   },
   {
     id: 3,
     src: "/images/eventBanner/banner_3.webp",
-    bgColor: "#F9E95F"
+    bgColor: "#F9E95F",
+    imgAlt: "허니스쿱하우스 24SS 5% 쿠폰 지금 구매하기"
   },
   {
     id: 4,
     src: "/images/eventBanner/banner_4.webp",
-    bgColor: "rgb(158, 163, 149)"
+    bgColor: "rgb(158, 163, 149)",
+    imgAlt: "이젠는 패딩말고 자켓 지금 거래하기"
   },
   {
     id: 5,
     src: "/images/eventBanner/banner_5.webp",
-    bgColor: "rgb(110, 127, 119)"
+    bgColor: "rgb(110, 127, 119)",
+    imgAlt: "포인트가 되어줄 나일론백 지금 거래하기"
   },
   {
     id: 6,
     src: "/images/eventBanner/banner_6.webp",
-    bgColor: "rgb(110, 111, 115)"
+    bgColor: "rgb(110, 111, 115)",
+    imgAlt: "오아이 24SS 발매 ~15% 지금 구매하기"
   },
   {
     id: 7,
     src: "/images/eventBanner/banner_7.webp",
-    bgColor: "rgb(93, 137, 147)"
+    bgColor: "rgb(93, 137, 147)",
+    imgAlt: "Spring Hoodie 지금 거래하기"
   },
   {
     id: 8,
     src: "/images/eventBanner/banner_8.webp",
-    bgColor: "rgb(138, 131, 131)"
+    bgColor: "rgb(138, 131, 131)",
+    imgAlt: "손이 자주 가는 '블랙 백' 지금 거래하기"
   },
 ]
 
