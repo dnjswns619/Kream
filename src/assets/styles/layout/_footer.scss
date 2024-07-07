@@ -64,4 +64,61 @@
       }
     }
   }
+  .footer__bottom {
+    max-width: 1280px;
+    width: 100%;
+    padding: 2rem 0;
+    border-top: 1px solid #ebebeb;
+    box-sizing: border-box;
+    &--linkList {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    .linkList {
+      &__wrap {
+        display: flex;
+        gap: 15px;
+      }
+      &__item {
+        font-size: 14px;
+        &--privacy {
+          font-weight: 700;
+        }
+      }
+      &__snsList {
+        display: flex;
+        gap: 15px;
+      }
+    }
+    &__businessInfo {
+      margin-bottom: 2rem;
+    }
+    .businessInfo {
+      span {
+        a {
+          text-decoration: underline;
+          margin-left: 5px;
+        }
+        font-size: 13px;
+        color: rgba(34,34,34,.5);
+      }
+      &__info {
+        display: flex;
+        gap: 15px;
+        line-height: 1.2rem;
+      }
+    }
+  
+    .notice {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      p {
+        color: rgba(34,34,34,.4);
+        font-size: 12px;
+        max-width: 50%;
+      }
+    }
+  }
 }
