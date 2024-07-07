@@ -10,14 +10,14 @@ function HoneyScoopHouse() {
   return (
     <section>
       <EventBanner item={eventBannerData[3]}></EventBanner>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>Honey Scoop House</h2>
             <span className="subTitle">다채로운 그래픽 한 스쿱</span>
           </div>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item, idx) => {
               return <SaleItem item={item} key={idx}></SaleItem>

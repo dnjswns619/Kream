@@ -50,8 +50,6 @@ const HomeView = () => {
 
       <EventBanner item={eventBannerData[8]}></EventBanner>
       <UpcomingRelease></UpcomingRelease>
-
-      
     </>
   )
 }

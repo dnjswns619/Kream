@@ -10,14 +10,14 @@ function OY() {
   return (
     <section>
       <EventBanner item={eventBannerData[6]}></EventBanner>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>OY 24SS 1차 발매</h2>
             <span className="subTitle">서브 컬쳐 기반 스트릿</span>
           </div>
         </div>
-        <div className="content-item showItem-4">
+        <div className="saleStuff__item saleItem saleStuff__item--4">
           {
             showDroppedItemCount.map((item) => {
               return <SaleItem item={item} key={item.id}></SaleItem>

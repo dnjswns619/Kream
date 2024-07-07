@@ -1,4 +1,4 @@
-.upcomingDate-wrap {
+.upComingDate {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,12 +7,12 @@
   position: absolute;
   top: 10px;
   left: 10px;
-}
-.upcomingMonth {
-  padding: 0 3px 3px;
-  border-bottom: 3px solid #000;
-}
-.upcomingDate {
-  font-size: 1.4rem;
-  font-weight: 700;
+  &__month {
+    padding: 0 3px 3px;
+    border-bottom: 3px solid #000;
+  }
+  &__date {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
 }

@@ -1,7 +1,6 @@
-import "../css/EventBanner.css"
 function EventBanner(props) {
   return (
-    <div className="bannerWrap" style={{backgroundColor : props.item.bgColor}}>
+    <div className="eventBanner" style={{backgroundColor : props.item.bgColor}}>
       <picture>
         <source srcSet={process.env.PUBLIC_URL + props.item.src} type='image/webp'>
         </source>

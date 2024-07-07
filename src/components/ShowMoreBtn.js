@@ -13,7 +13,7 @@ function ShowMoreBtn({showItem, setShowItem, data}) {
     }
   }, [showItem, setShowItem, data])
   return (
-    <button onClick={showMore} className="showMore-btn">더보기</button>
+    <button onClick={showMore} className="showMoreBtn">더보기</button>
   )
 }
 

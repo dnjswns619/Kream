@@ -4,14 +4,14 @@ import DetailLink from "./DetailLink.js";
 function TopBrandLink() {
   return (
     <section>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>Top Brand</h2>
             <span className="subTitle">인기 탑 브랜드</span>
           </div>
         </div>
-        <div className="detailBtn-wrap">
+        <div className="detailBtn">
           {
             topBrandDetailData.map((item, idx) => {
               return (

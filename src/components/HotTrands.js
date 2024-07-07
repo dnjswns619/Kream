@@ -4,9 +4,9 @@ import UserSlide from "./UserSlide";
 function HotTrands() {
   return (
     <section>
-      <div className="container trandWrwap">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff trandWrwap">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>행운 가득! 설날 코디 모음</h2>
           </div>
         </div>

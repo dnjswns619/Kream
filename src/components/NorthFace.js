@@ -10,14 +10,14 @@ function NorthFace() {
   return (
     <section>
       <EventBanner item={eventBannerData[4]}></EventBanner>
-      <div className="container">
-        <div className="content-title">
-          <div className="title-wrap">
+      <div className="saleStuff">
+        <div className="saleStuff__title">
+          <div className="saleStuff__title--wrap">
             <h2>The North Face</h2>
             <span className="subTitle">트랜드를 넘어 클래식으로</span>
           </div>
         </div>
-        <div className="content-item">
+        <div className="saleStuff__item saleItem">
           {
             showDroppedItemCount.map((item, idx) => {
               return <SaleItem item={item} key={item.id}></SaleItem>

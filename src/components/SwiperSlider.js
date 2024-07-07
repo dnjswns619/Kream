@@ -8,8 +8,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import '../css/SwiperSlider.css';
-
 // import required modules
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
@@ -28,7 +26,7 @@ function SwiperSlider() {
   activeSlideColor = currentSlide.activeColor;
   return (
     <section>
-      <div className='sliderWrap'>
+      <div className='slider'>
         <Swiper autoplay={{
             delay: 3500,
             disableOnInteraction: false,
