@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Kream/static/css/main.2a994736.css",
+    "main.js": "/Kream/static/js/main.d43b8314.js",
+    "static/js/787.87d1e9b7.chunk.js": "/Kream/static/js/787.87d1e9b7.chunk.js",
+    "static/media/arr-right-circle-big.98024941.svg": "/Kream/static/media/arr-right-circle-big.98024941.9802494123acee7cee31.svg",
+    "static/media/arr-left-circle-big.7c37625e.svg": "/Kream/static/media/arr-left-circle-big.7c37625e.7c37625eda844fb307c4.svg",
+    "index.html": "/Kream/index.html",
+    "main.2a994736.css.map": "/Kream/static/css/main.2a994736.css.map",
+    "main.d43b8314.js.map": "/Kream/static/js/main.d43b8314.js.map",
+    "787.87d1e9b7.chunk.js.map": "/Kream/static/js/787.87d1e9b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a994736.css",
+    "static/js/main.d43b8314.js"
+  ]
+}
