@@ -1,7 +1,7 @@
 # Kream 메인페이지 클론코딩
 
 📌 **배포 링크**
-[wonjun-project-kream](https://dnjswns619.github.io/MCST/)
+[wonjun-project-kream](https://dnjswns619.github.io/Kream/)
 
 ## Overview
 React를 이용하여 만든 프로젝트 입니다 💻
